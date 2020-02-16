@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title> 
+    <script>
+    
+        const colors = ["red", "blue", "green", "yellow", "orange"];
+        const adjectives = [
+            "bold",
+            "shy",
+            "strong",
+            "lazy",
+            "round",
+            "fat",
+            "old"
+        ];
+
+        const nouns = [
+            "bike",
+            "cat",
+            "plate",
+            "computer",
+            "student",
+            "car",
+            "house"
+        ];
+        const numbers = [1, 4, 7, 34, 54, 243, 67, 89, 21, 12345];
+
+        // Example for loop array traverse
+        for (let i = 0; i < colors.length; i++) {
+            console.log(colors);
+            console.log(colors[i]);
+            console.dir(colors);
+        }
+
+        // for Each
+        colors.forEach(function(item) {
+            console.log(item);
+        });
+        function stuff(item) {
+            console.log(item);
+        }
+        colors.forEach(stuff);
+
+        // Map
+        const newArray = colors.map((color) => {
+            return 'light' + color;
+        });
+        const newArray2 = colors.map(color => "light" + color);
+        console.log(newArray); 
+        console.log(newArray2); // Same as newArray, just different syntax
+        const negative = numbers.map(number => number * -1);
+        console.log(negative);
+
+        // Math
+        console.log(Math.random());
+
+        // Random numbers
+        function randomNum(num) {
+            return Math.floor(Math.random() * num) + 1;
+        }
+
+        // Randomly choose array item
+        function randomWords() {
+            let n = numbers.length;
+            let c = colors.length;
+            let no = nouns.length;
+
+            let a = numbers[Math.random(n)];
+            let b = colors[Math.random(c)];
+            let d = nouns[Math.random(no)];
+
+            return a + " " + b + " " + d;
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

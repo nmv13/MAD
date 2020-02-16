@@ -1,0 +1,10 @@
+I learned a fair amount about objects and the DOM, much of it was stuff I knew, I just didn't know there was an 
+overarching term "DOM" for it all. The history of it was really interesting as well as the diagrams on the nodes. 
+As for objects, I learned that those are pass by reference. Sometimes I get mixed up between pass by reference and 
+pass by value, but the book gave a great example of it to clarify. My only major question for this week is about a 
+simple command that checks if a method property exists, I believe that was in chapter 5 with an example of a super 
+hero. Why would you need to check to see if an object exists? If you are the programmer, just look at the code 
+you're writing, and if you are a user, why would you care since everything the website offers is displaying? I hope 
+that question makes sense. Again, it's simple and a bit silly, but that really confused me on what purpose it can 
+possibly serve. There are probably plenty of other commands under that same questionable use, but I just thought 
+of it with this one specifically. 

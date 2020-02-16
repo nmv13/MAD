@@ -1,0 +1,31 @@
+#list {
+    list-style-type: none;
+}
+
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+#divList {
+    background-color: aqua;
+    width: 300px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+#list {
+    padding-left: 0;
+    text-align: left;
+}
+
+.toDo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.toDo input, .toDo button {
+    width: 30px;
+}

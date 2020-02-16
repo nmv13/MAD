@@ -1,0 +1,12 @@
+It was good to get a refresher on Encapsulation and Polymorphism. The examples in the book about the blender helped
+a lot with my understanding of the two. 
+
+I still don't fully understand what Prototype chaining is.
+
+Mixin is a concept I have never heard of before at least in C++ Object-Oriented Programming. From what I can
+gather, it is a different way of basically making an object have specific properties of another object without
+full-blown inheriting the whole thing. Is that correct?
+
+I didn't fully understnad "that" either. Is "that" some sort of reserved variable or function, because it didn't
+seem like that from the book, yet it was very adiment that the specific word "that" is what you need to use for 
+the circumstance where "this" is involved. 

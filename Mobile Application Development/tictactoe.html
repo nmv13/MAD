@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tick-Tac-Toe</title>
+    <style>
+        
+        td, tr {
+            border-top: 2px solid black;
+            border-right: 2px solid black;
+            border-left: 2px solid black;
+            border-bottom: 2px solid black;
+        }
+
+        td {
+            width: 100px;
+            height: 100px;
+        }
+
+        .tab {
+            margin: 100px;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <table class="tab">
+        <tr>
+            <td id="a1"></td>
+            <td id="a2"></td>
+            <td id="a3"></td>
+        </tr>
+        <tr>
+            <td id="b1"></td>
+            <td id="b2"></td>
+            <td id="b3"></td>
+        </tr>
+        <tr>
+            <td id="c1"></td>
+            <td id="c2"></td>
+            <td id="c3"></td>
+        </tr>
+    </table>
+    <script>
+
+        const board = document.querySelector(".tab");
+        const piece = ["X", "O"];
+
+        function turn(e) {
+
+            console.log(e.currentTarget);
+            console.log(e.target);
+            console.log(this);
+
+            //for (i = 0; i < 2; i++)
+            //{
+
+
+
+            //    if (i >= 1)
+            //    {
+            //        i = 0;
+            //    }
+            }
+        }
+
+        board.addEventListener("click", turn);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+I never knew there was a "finally" block as fat of "try/catch". I undrstand that it's 
+meant have a (regardless of the putcome, do this) type functionality, but why wouldn't
+you just put whatever that is above the try/catch part? I can see why wouldn't below
+because anything after that catch may not execute if there was an exception, but why
+not the top?
+
+Also, I still don't really understand what "jest" is specifically meant for. The only 
+benefit I understand is debugging multipul files at once, but especially if there were 
+multipule errors on each file, wouldn't that make debugging a bit harder?
